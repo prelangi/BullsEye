@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD840D11B54C90A00D2758E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD840D01B54C90A00D2758E /* AppDelegate.swift */; };
+		CAD840D31B54C90A00D2758E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD840D21B54C90A00D2758E /* ViewController.swift */; };
+		CAD840D61B54C90A00D2758E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD840D41B54C90A00D2758E /* Main.storyboard */; };
+		CAD840D81B54C90A00D2758E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD840D71B54C90A00D2758E /* Images.xcassets */; };
+		CAD840DB1B54C90A00D2758E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD840D91B54C90A00D2758E /* LaunchScreen.xib */; };
+		CAD840E71B54C90B00D2758E /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD840E61B54C90B00D2758E /* BullsEyeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD840E11B54C90B00D2758E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD840C31B54C90A00D2758E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD840CA1B54C90A00D2758E;
+			remoteInfo = BullsEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD840CB1B54C90A00D2758E /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD840CF1B54C90A00D2758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD840D01B54C90A00D2758E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD840D21B54C90A00D2758E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD840D51B54C90A00D2758E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD840D71B54C90A00D2758E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAD840DA1B54C90A00D2758E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAD840E01B54C90B00D2758E /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD840E51B54C90B00D2758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD840E61B54C90B00D2758E /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD840C81B54C90A00D2758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD840DD1B54C90B00D2758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD840C21B54C90A00D2758E = {
+			isa = PBXGroup;
+			children = (
+				CAD840CD1B54C90A00D2758E /* BullsEye */,
+				CAD840E31B54C90B00D2758E /* BullsEyeTests */,
+				CAD840CC1B54C90A00D2758E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD840CC1B54C90A00D2758E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD840CB1B54C90A00D2758E /* BullsEye.app */,
+				CAD840E01B54C90B00D2758E /* BullsEyeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD840CD1B54C90A00D2758E /* BullsEye */ = {
+			isa = PBXGroup;
+			children = (
+				CAD840D01B54C90A00D2758E /* AppDelegate.swift */,
+				CAD840D21B54C90A00D2758E /* ViewController.swift */,
+				CAD840D41B54C90A00D2758E /* Main.storyboard */,
+				CAD840D71B54C90A00D2758E /* Images.xcassets */,
+				CAD840D91B54C90A00D2758E /* LaunchScreen.xib */,
+				CAD840CE1B54C90A00D2758E /* Supporting Files */,
+			);
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		CAD840CE1B54C90A00D2758E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD840CF1B54C90A00D2758E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD840E31B54C90B00D2758E /* BullsEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD840E61B54C90B00D2758E /* BullsEyeTests.swift */,
+				CAD840E41B54C90B00D2758E /* Supporting Files */,
+			);
+			path = BullsEyeTests;
+			sourceTree = "<group>";
+		};
+		CAD840E41B54C90B00D2758E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD840E51B54C90B00D2758E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD840CA1B54C90A00D2758E /* BullsEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD840EA1B54C90B00D2758E /* Build configuration list for PBXNativeTarget "BullsEye" */;
+			buildPhases = (
+				CAD840C71B54C90A00D2758E /* Sources */,
+				CAD840C81B54C90A00D2758E /* Frameworks */,
+				CAD840C91B54C90A00D2758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BullsEye;
+			productName = BullsEye;
+			productReference = CAD840CB1B54C90A00D2758E /* BullsEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD840DF1B54C90B00D2758E /* BullsEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD840ED1B54C90B00D2758E /* Build configuration list for PBXNativeTarget "BullsEyeTests" */;
+			buildPhases = (
+				CAD840DC1B54C90B00D2758E /* Sources */,
+				CAD840DD1B54C90B00D2758E /* Frameworks */,
+				CAD840DE1B54C90B00D2758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD840E21B54C90B00D2758E /* PBXTargetDependency */,
+			);
+			name = BullsEyeTests;
+			productName = BullsEyeTests;
+			productReference = CAD840E01B54C90B00D2758E /* BullsEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD840C31B54C90A00D2758E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = prasu;
+				TargetAttributes = {
+					CAD840CA1B54C90A00D2758E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CAD840DF1B54C90B00D2758E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CAD840CA1B54C90A00D2758E;
+					};
+				};
+			};
+			buildConfigurationList = CAD840C61B54C90A00D2758E /* Build configuration list for PBXProject "BullsEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD840C21B54C90A00D2758E;
+			productRefGroup = CAD840CC1B54C90A00D2758E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD840CA1B54C90A00D2758E /* BullsEye */,
+				CAD840DF1B54C90B00D2758E /* BullsEyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD840C91B54C90A00D2758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD840D61B54C90A00D2758E /* Main.storyboard in Resources */,
+				CAD840DB1B54C90A00D2758E /* LaunchScreen.xib in Resources */,
+				CAD840D81B54C90A00D2758E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD840DE1B54C90B00D2758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD840C71B54C90A00D2758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD840D31B54C90A00D2758E /* ViewController.swift in Sources */,
+				CAD840D11B54C90A00D2758E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD840DC1B54C90B00D2758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD840E71B54C90B00D2758E /* BullsEyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD840E21B54C90B00D2758E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD840CA1B54C90A00D2758E /* BullsEye */;
+			targetProxy = CAD840E11B54C90B00D2758E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD840D41B54C90A00D2758E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD840D51B54C90A00D2758E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD840D91B54C90A00D2758E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD840DA1B54C90A00D2758E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD840E81B54C90B00D2758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD840E91B54C90B00D2758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD840EB1B54C90B00D2758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BullsEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAD840EC1B54C90B00D2758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BullsEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAD840EE1B54C90B00D2758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BullsEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
+			};
+			name = Debug;
+		};
+		CAD840EF1B54C90B00D2758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BullsEyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD840C61B54C90A00D2758E /* Build configuration list for PBXProject "BullsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD840E81B54C90B00D2758E /* Debug */,
+				CAD840E91B54C90B00D2758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD840EA1B54C90B00D2758E /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD840EB1B54C90B00D2758E /* Debug */,
+				CAD840EC1B54C90B00D2758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD840ED1B54C90B00D2758E /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD840EE1B54C90B00D2758E /* Debug */,
+				CAD840EF1B54C90B00D2758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD840C31B54C90A00D2758E /* Project object */;
+}
